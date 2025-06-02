@@ -1,0 +1,49 @@
+{
+  "name": "go-server",
+  "version": "1.0.0",
+  "description": "A comprehensive Model Context Protocol server for accessing Gene Ontology data with tools for term search, ontology navigation, gene annotations, and enrichment analysis",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "start": "node build/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "gene-ontology",
+    "go",
+    "bioinformatics",
+    "ontology",
+    "annotations",
+    "enrichment-analysis",
+    "molecular-function",
+    "biological-process",
+    "cellular-component",
+    "gene-annotation",
+    "semantic-search",
+    "systems-biology"
+  ],
+  "author": "Augmented Nature",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "bin": {
+    "go-server": "./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/augmented-nature/go-mcp-server"
+  },
+  "homepage": "https://github.com/augmented-nature/go-mcp-server#readme",
+  "bugs": {
+    "url": "https://github.com/augmented-nature/go-mcp-server/issues"
+  }
+}
