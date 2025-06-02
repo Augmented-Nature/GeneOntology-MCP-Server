@@ -1,4 +1,5 @@
-# Gene Ontology MCP Server
+![Logo](logo.png)
+# Unofficial Gene Ontology MCP Server
 
 A comprehensive Model Context Protocol server for accessing Gene Ontology (GO) data, enabling AI systems to perform ontology-based analysis, gene annotation research, and functional enrichment studies.
 
@@ -142,24 +143,3 @@ The server includes comprehensive error handling for:
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
-
-## License
-
-MIT License - see LICENSE file for details.
-
-## Support
-
-For issues and questions:
-
-- GitHub Issues: Create an issue in the repository
-- Documentation: https://github.com/augmented-nature/go-mcp-server
-
-## Citation
-
-If you use this server in your research, please cite:
-
-```
-Gene Ontology MCP Server
-Augmented Nature
-https://github.com/augmented-nature/go-mcp-server
-```
