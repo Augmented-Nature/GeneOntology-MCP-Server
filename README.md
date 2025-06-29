@@ -143,3 +143,13 @@ The server includes comprehensive error handling for:
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
+
+## Citation
+If you use this project in your research or publications, please cite it as follows:
+
+```bibtex @misc{geneontologymcp2025, 
+author = {Moudather Chelbi},
+title = {GeneOntology MCP Server},
+year = {2025},
+howpublished = {https://github.com/Augmented-Nature/GeneOntology-MCP-Server},
+note = {Accessed: 2025-06-29}
